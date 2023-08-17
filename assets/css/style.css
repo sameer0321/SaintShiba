@@ -20,8 +20,12 @@
     width: 100%;
 }
 
+.h-100 {
+    height: 100%;
+}
+
 .font1 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 36px;
     font-weight: 400;
     line-height: 54px;
@@ -31,7 +35,7 @@
 }
 
 .font2 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
@@ -45,7 +49,7 @@
 }
 
 .head {
-    background-image: url(/assets/images/Full-moon.png);
+    background-image: url("/assets/images/Full-moon.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -69,12 +73,12 @@ nav {
     background: linear-gradient(90deg, #F06500 0%, #FFA800 100%);
 }
 
-.gap {
+.gap-32 {
     gap: 32px;
 }
 
 .font3 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -88,7 +92,7 @@ nav {
 }
 
 .font4 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 32px;
@@ -118,7 +122,7 @@ nav {
 
 .font5 {
     max-width: 660px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 96px;
     font-weight: 700;
     line-height: 96px;
@@ -129,7 +133,7 @@ nav {
 
 .font6 {
     max-width: 660px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
@@ -152,7 +156,7 @@ nav {
 }
 
 .font7 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
@@ -182,7 +186,7 @@ nav {
 }
 
 .font8 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 600;
     line-height: 61px;
@@ -197,8 +201,7 @@ nav {
 
 .font9 {
     max-width: 1272px;
-    opacity: 0.699999988079071px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -234,7 +237,7 @@ nav {
 
 .font10 {
     max-width: 660px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 600;
     line-height: 61px;
@@ -245,8 +248,7 @@ nav {
 
 .font11 {
     max-width: 660px;
-    opacity: 0.699999988079071px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -270,7 +272,7 @@ nav {
 }
 
 .font12 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 32px;
@@ -296,7 +298,7 @@ nav {
 }
 
 .font13 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 600;
     line-height: 61px;
@@ -307,8 +309,7 @@ nav {
 
 .font14 {
     max-width: 660px;
-    opacity: 0.699999988079071px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -321,6 +322,7 @@ nav {
 .card {
     background-color: #151313 !important;
     border-radius: 46px !important;
+    max-width: 660px !important;
 }
 
 .card:hover {
@@ -328,8 +330,8 @@ nav {
 }
 
 .circle {
-    width: 71px;
-    height: 71px;
+    min-width: 71px;
+    min-height: 71px;
     background: #FFFFFF;
     border-radius: 50%;
     display: flex;
@@ -347,7 +349,7 @@ nav {
 }
 
 .font15 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
@@ -361,7 +363,7 @@ nav {
 }
 
 .font16 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
@@ -371,8 +373,8 @@ nav {
 }
 
 .font17 {
-    opacity: 0.699999988079071px;
-    font-family: Poppins;
+    max-width: 403px;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -402,7 +404,7 @@ nav {
 }
 
 .font18 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 600;
     line-height: 61px;
@@ -438,7 +440,7 @@ nav {
 }
 
 .font19 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
@@ -448,7 +450,7 @@ nav {
 }
 
 .font20 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
@@ -467,7 +469,7 @@ nav {
 }
 
 .font21 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: 600;
     line-height: 42px;
@@ -476,15 +478,17 @@ nav {
     color: #FFFFFF;
     padding-bottom: 15px;
 }
-.font21:hover{
+
+.font21:hover {
     color: #F06500;
 }
+
 .pl-25 {
     padding-left: 25px;
 }
 
 .font22 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 32px;
@@ -503,37 +507,40 @@ nav {
     border-radius: 4px;
 }
 
-.flex-direction {
+.flex-direction-column {
     flex-direction: column;
 }
 
-.first-color {
+.bg-color-green {
     background-color: #00E396;
 }
 
-.second-color {
+.bg-color-orange {
     background-color: #F06500;
 }
 
-.third-color {
+.bg-color-purple {
     background-color: #8B35E2;
 }
 
-.fourth-color {
+.bg-color-blue {
     background-color: #00B2FF;
 }
 
-.fifth-color {
+.bg-color-light-orange {
     background-color: #FFA800;
 }
 
-.sixth-color {
+.bg-color-pink {
     background-color: #FF4560;
 }
 
 .box2 {
-    border: 2px solid #3B3A3A;
-    border-radius: 10px;
+    border-top: 2px solid #3B3A3A;
+    border-right: 2px solid #3B3A3A;
+    border-left: 2px solid #3B3A3A;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
     backdrop-filter: blur(16px);
 }
@@ -576,7 +583,7 @@ th {
     padding: 12px;
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -613,7 +620,7 @@ tr:last-of-type td:last-of-type {
 }
 
 .font23 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -623,7 +630,7 @@ tr:last-of-type td:last-of-type {
 }
 
 .font24 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -638,7 +645,7 @@ tr:last-of-type td:last-of-type {
 }
 
 .font25 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 600;
     line-height: 61px;
@@ -652,7 +659,7 @@ tr:last-of-type td:last-of-type {
 }
 
 .font25 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 600;
     line-height: 61px;
@@ -667,7 +674,7 @@ tr:last-of-type td:last-of-type {
 }
 
 .font26 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 36px;
     font-weight: 600;
     line-height: 54px;
@@ -677,7 +684,7 @@ tr:last-of-type td:last-of-type {
 
 .font27 {
     max-width: 260px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -690,7 +697,7 @@ tr:last-of-type td:last-of-type {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    z-index: 1;
+    z-index: 2;
 }
 
 .vertical-line::after {
@@ -755,7 +762,7 @@ tr:last-of-type td:last-of-type {
 }
 
 .font28 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 600;
     line-height: 61px;
@@ -773,7 +780,7 @@ tr:last-of-type td:last-of-type {
 }
 
 .accordion-button {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-style: normal;
     color: #FFF;
@@ -783,9 +790,11 @@ tr:last-of-type td:last-of-type {
 }
 
 .accordion-body {
+    margin-top: 10px !important;
+    border: 2px solid #3B3A3A;
     color: #B8B8B8 !important;
     border-radius: 10px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: normal;
     color: #FFF;
@@ -793,6 +802,7 @@ tr:last-of-type td:last-of-type {
     line-height: 180%;
     background-color: #0F0E0E !important;
 }
+
 
 .accordion-button {
     color: white !important;
@@ -825,51 +835,53 @@ tr:last-of-type td:last-of-type {
 }
 
 .accordion-button::after {
-    background-image: url('../images/down\ arrow.png') !important;
+    background-image: url('../images/down-arrow.png') !important;
 }
 
 .pb-100 {
     padding-bottom: 100px;
 }
 
-.z-index {
-    z-index: 1;
-}
-
 .first-elipse {
     position: absolute;
     bottom: 66%;
     right: 0;
+    z-index: 1;
 }
 
 .second-elipse {
     position: absolute;
     bottom: 67%;
     left: 0;
+    z-index: 1;
 }
 
 .third-elipse {
     position: absolute;
     bottom: 68%;
     right: 10%;
+    z-index: 1;
 }
 
 .fourth-elipse {
     position: absolute;
     bottom: 13%;
     right: 0;
+    z-index: 1;
 }
 
 .fifth-elipse {
     position: absolute;
     bottom: 8%;
     right: 0;
+    z-index: 1;
 }
 
 .sixth-elipse {
     position: absolute;
     bottom: 15%;
     left: 0;
+    z-index: 1;
 }
 
 .seventh-elipse {
@@ -946,7 +958,8 @@ tr:last-of-type td:last-of-type {
     .pr-97 {
         padding-right: 0;
     }
-    .pl-66{
+
+    .pl-66 {
         padding-left: 0;
     }
 
@@ -991,11 +1004,21 @@ tr:last-of-type td:last-of-type {
     .font27 {
         max-width: unset;
     }
-    .p-absolute{
+
+    .p-absolute {
         bottom: 86px;
     }
-    .box{
+
+    .box {
         bottom: 86px;
+    }
+
+    .font16 {
+        font-size: 18px;
+    }
+
+    .font17 {
+        font-size: 15px;
     }
 
 }
@@ -1005,11 +1028,21 @@ tr:last-of-type td:last-of-type {
         top: 3%;
         bottom: 23%;
     }
-    .p-absolute{
+
+    .p-absolute {
         bottom: 42px;
     }
-    .box{
+
+    .box {
         bottom: 42px;
+    }
+
+    .font16 {
+        font-size: 16px;
+    }
+
+    .font17 {
+        font-size: 13px;
     }
 }
 
@@ -1021,7 +1054,8 @@ tr:last-of-type td:last-of-type {
     .pr-97 {
         padding-right: 0;
     }
-    .pl-66{
+
+    .pl-66 {
         padding-left: 0;
     }
 
@@ -1052,7 +1086,8 @@ tr:last-of-type td:last-of-type {
     .pr-97 {
         padding-right: 97px;
     }
-    .pl-66{
+
+    .pl-66 {
         padding-left: 66px;
     }
 
@@ -1063,24 +1098,30 @@ tr:last-of-type td:last-of-type {
     .pt-243 {
         padding-top: 243px;
     }
-    .p-absolute{
+
+    .p-absolute {
         bottom: 81px;
     }
-    .box{
+
+    .box {
         bottom: 81px;
     }
 }
-@media(min-width:1200px){
+
+@media(min-width:1200px) {
     .pt-227 {
         padding-top: 227px;
     }
+
     .font5 {
         font-size: 96px;
     }
-    .p-absolute{
+
+    .p-absolute {
         bottom: 133px;
     }
-    .box{
+
+    .box {
         bottom: 133px;
     }
 }
